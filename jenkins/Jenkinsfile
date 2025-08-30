@@ -25,10 +25,5 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh' 
             }
         }
-        stage('Changes') { 
-            steps {
-                echo 'Commiting changes test 1'
-            }
-        }
     }
 }
